@@ -58,9 +58,10 @@ class Book  implements DisplayBook{
 		public void displayDetails() {
 			
 			System.out.println("Number of Books Available: "+books.size());
-			
+			System.out.println("---------------------------------------------------");
 			for(Book book : books) {
 				book.displayDetails();
+				System.out.println("---------------------------------------------------");
 			}
 			
 		}
