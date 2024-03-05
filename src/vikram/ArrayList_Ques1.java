@@ -20,9 +20,20 @@ public class ArrayList_Ques1 {
 		arrayList.add("Rohit");
 		
 		System.out.println("ArrayList: "+arrayList);
+		System.out.println("----------------------------------------------------------------");
 		
 		arrayList.remove("Rohan");
-		System.out.println(arrayList);
+		System.out.println("ArrayList after removing Rohan: "+arrayList);
+		System.out.println("----------------------------------------------------------------");
+		
+		arrayList.set(2, "Mohit");
+		System.out.println("ArrayList after updating Rohit to Mohit: "+arrayList);
+		System.out.println("----------------------------------------------------------------");
+		
+		System.out.println("Iterating through the ArrayList: ");
+		for(String friendList: arrayList) {
+			System.out.println(friendList);
+		}
 		
 	}
 	
