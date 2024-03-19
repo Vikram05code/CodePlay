@@ -30,7 +30,7 @@ public class BubbleSort {
 		
 		System.out.println("After sorting: ");
 		for(int number : nums) {
-			System.out.print(number+",");
+			System.out.print(number+" ");
 		}
 	}
 	
