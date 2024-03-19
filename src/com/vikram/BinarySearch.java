@@ -29,7 +29,7 @@ public class BinarySearch {
 			if(nums[mid]==target) {
 				return mid;
 			}
-			else if(mid>target) {
+			else if(nums[mid]>target) {
 				right=mid-1;
 			}
 			else {
