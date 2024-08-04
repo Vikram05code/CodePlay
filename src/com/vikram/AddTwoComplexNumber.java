@@ -30,7 +30,7 @@ public class AddTwoComplexNumber {
 
 		AddTwoComplexNumber addTwoComplexNumber2 = new AddTwoComplexNumber(8, 6);
 		System.out.println("Second Complex Number : ");
-		addTwoComplexNumber1.showComplexNumber();
+		addTwoComplexNumber2.showComplexNumber();
 
 		AddTwoComplexNumber result = add(addTwoComplexNumber1, addTwoComplexNumber2);
 		System.out.println("Addition of two Complex Number : ");
