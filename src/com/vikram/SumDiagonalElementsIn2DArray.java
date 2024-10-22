@@ -1,5 +1,5 @@
 package com.vikram;
-
+//Given 2D array calculate the sum of diagonal elements.
 import java.util.Arrays;
 
 public class SumDiagonalElementsIn2DArray {
