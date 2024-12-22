@@ -11,8 +11,16 @@ public class Main {
 		linkedList1.insertFirst(4);
 		linkedList1.insertFirst(20);
 		linkedList1.insertLast(80);
-		linkedList1.insert(20,3);
-		
+		linkedList1.insert(50,3);
+		linkedList1.display();
+		System.out.println();
+		System.out.println("Removed Node value : "+linkedList1.deleteFirst());
+		linkedList1.display();
+		System.out.println();
+		System.out.println("Deleted Last Node :"+linkedList1.deleteLast());
+		linkedList1.display();
+		System.out.println();
+		System.out.println("Deleted Node at given index :"+linkedList1.deleteAtIndex(2));
 		linkedList1.display();
 	}
 
