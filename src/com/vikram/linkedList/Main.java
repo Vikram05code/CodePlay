@@ -11,6 +11,7 @@ public class Main {
 		linkedList1.insertFirst(4);
 		linkedList1.insertFirst(20);
 		linkedList1.insertLast(80);
+		linkedList1.insert(20,3);
 		
 		linkedList1.display();
 	}
