@@ -22,7 +22,7 @@ public class FindDuplicateCharactersInString {
 	public static void main(String[] args) {
 		
 		String str = "JavaProgramming";
-		findDuplicates(str);
+		findDuplicates(str);   
 		
 	}
 
