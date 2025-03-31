@@ -9,7 +9,9 @@ public class FilterNumberUsingStreamAPI {
 	
 	public static List<Integer> filterNumber(List<Integer> numberList){
 		
-		List<Integer> evenNumberList = numberList.stream().filter((num)->num % 2==0).collect(Collectors.toList());
+		List<Integer> evenNumberList = numberList.stream()
+				.filter((num)->num % 2==0)
+				.collect(Collectors.toList());
 		
 		return evenNumberList;
 	}
