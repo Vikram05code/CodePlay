@@ -29,8 +29,7 @@ class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
+
 	public String toString() {
 		return name;
 	}
@@ -44,10 +43,10 @@ public class GroupingElements {
 	}
 
 	public static void main(String[] args) {
-		List<User> usersList = Arrays.asList(new User("Rohit", 27),new User("Vikram", 27),
-				new User("Abhishek", 27), new User("Ritu", 31), new User("Rahul", 31),new User("Monu", 26));
-	
-	System.out.println(groupingByAge(usersList));
+		List<User> usersList = Arrays.asList(new User("Rohit", 27), new User("Vikram", 27), new User("Abhishek", 27),
+				new User("Ritu", 31), new User("Rahul", 31), new User("Monu", 26));
+
+		System.out.println(groupingByAge(usersList));
 	}
 
 }
